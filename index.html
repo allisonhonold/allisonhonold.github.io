@@ -56,6 +56,9 @@
           </a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>
@@ -79,7 +82,7 @@
           background is in environmental science and policy - energy and green buildings; 
           secondary education - science teaching and equitable school practices; and business - with
           an International MBA from IE Business School in Madrid focusing in technology and operations.
-          I live in Seattle with my partner and pup, Odell Beckham Jr.
+          I live in Seattle with my partner and pup, Beckham.
         </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/allisonhonold/" target="_blank">
@@ -132,7 +135,7 @@
             <div class="subheading mb-3"> New York City Walk Safety Predictor App
             </div>
             <p>
-              This Flask app predicts and displays the rlative safety of walking based
+              This Flask app predicts and displays the relative safety of walking based
               on historic arrest data, weather, and start and end location. It combines
               information intake from users, API calls, the machine learning model backend, 
               and mapping of the results.
@@ -143,6 +146,7 @@
               maximize logloss within the project size constraint of 1 gb), GeoJSON and 
               Shapely to work with the geospatial aspects of the data, and Folium mapping
               to present the results overlaid on a map for practial use.
+              <!-- List of technologies you used would be more digestible as a bulleted list -->
             </p>
            </div>
           <div class="resume-date text-md-right">
@@ -197,6 +201,7 @@
             </p>
            </div>
           <div class="resume-date text-md-right">
+            <!-- The links on the right + the body of the text are pretty close together which makes it tough to digest. This is tougher when there are more than 2 -->
             <p>
               <a href="https://github.com/allisonhonold/uw_madison_courses_grades" 
                 target="_blank" 
@@ -238,7 +243,7 @@
             <h3 class="mb-0">Targeting Outreach and Support for Predicted Drug Users</h3>
             <div class="subheading mb-3">Training Classification Models</div>
             <p>
-              In this project, I worked with a team of four to create the optimal Classification
+              I worked with a team of four to create the optimal Classification
               Models that would predict whether someone is a likely user of the substance of
               interest based on their demographics, personality, and use of other substances.
               We created models for each of the following substances: Heroin, Amphetamines, and
@@ -249,7 +254,7 @@
             <p>
               To determine the best model for each substance, we looked to maximize the F-1
               score as a balance between precision and recall, in an effort to identify most of
-              the people in need of support (recall) while not spending too much resources 
+              the people in need of support (recall) while not spending too many resources 
               where they are not needed (precision).
             </p>
             <p>
@@ -258,6 +263,7 @@
               Gaussian Proccess Classifiers, Decision Tree Classifiers, Random Forest CLassifiers,
               AdaBoost Classifiers, Gassuian Naieve Bayes Classifiers, and Quadratic
               Discriminant Analysis.
+              <!-- Make the technologies a list -->
 
             </p>
            </div>
@@ -291,18 +297,23 @@
                 class="text-primary">Zillow Research
               </a> 
               data set to identify zipcodes that would fit our investment goals
-              over the five years following our data set (April 2018). We were
+              over the five years following our data set. We were
               looking for the top five zipcodes for upside potential, expected
-              value, and lower risk. We measured in terms of maximum ROI over 
+              value, and lower risk.<!-- The way you list these 3 items sounds like they were part of the same model.--> We measured in terms of maximum ROI over 
               the five year period, without regard to the time value of money,
-              since we are using the same five year period for each potential
-              investment.
+              as we are using the same five year period for each potential
+              investment and only comparing between the three models without 
+              consideration to other investment opportunities.<!--I added language
+              here to clarify that what you meant with not using time value of
+            money-->
+            
             </p>
             <p>
               We used fbProphet for our time series modeling, pandas for our 
               data cleaning and dataframe handling, matplotlib.pyplot for
               our data visualizations, and scipy.stats to assist with our 
               statistical analysis.
+              <!-- list for technology -->
             </p>
            </div>
           <div class="resume-date text-md-right">
@@ -508,26 +519,6 @@
   <div class="w-100">
     <h2 class="mb-5">Professional Experience</h2>
 
-  <!-- project #5 -->
-    <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-      <div class="resume-content">
-        <h3 class="mb-0">Predicting Home Values</h3>
-        <div class="subheading mb-3">Utilize linear regression to predict home values 
-          in King County</div>
-        <p>
-          This is the first paragraph of description about Mod 1 
-         </p>
-        <p> -->
-          <!-- This is the second paragraph of description about Mod 1 -->
-        <!-- </p>
-       </div>
-      <div class="resume-date text-md-right">
-        <a href="jupyter_notebooks/example.html" class="text-primary">View Jupyter Notebook</a>
-      </div>
-    </div> --> 
-
-
-    <!-- project #4 -->
     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
       <div class="resume-content">
         <h3 class="mb-0">Sequoia High School, Sequoia Union High School District</h3>
@@ -535,29 +526,94 @@
         <p>
           I worked with a diverse group of administrators, students, parents, teachers, 
           staff, and union representatives to understand the issues facing the school.
-          We designed, lead, and evaluated initiatives to improve the school. Here, I 
-          found myself increasingly excited about digging into data. I developed
-          my SQL skills, as well as adapted my presentation skills aimed at diverse 
+          We evaluated, designed, and lead initiatives to improve the school. In this role, 
+          I found myself increasingly excited about using data to drive informed decision making. I 
+          developed my SQL skills, as well as adapted my presentation skills aimed at diverse 
           audiences.
         </p>
         <div class="subheading mb-3">Physics Teacher</div>
         <p>
           I collaborated closely with a teaching team to design and continually improve
-          curriculum targeted at newly released standards - from classroom design,
-          to learning activities, and assessment. We lead our district in one-to-one
-          chromebook use with a blended online, face-to-face curriculum. We acted
-          as a pilot and advocate for a new standards based assessment structure, 
-          helping many colleagues make the transition in their own classrooms.
+          curriculum targeted at newly released educational standards, including classroom design,
+          learning activities, and assessment. We lead our district in one-to-one
+          chromebook use with a blended online, face-to-face curriculum. <!--as a non-teacher, I don't
+          know what this means...We lead our district in implementing new blended-learning techniques,
+         balancing online learning modules with face-to-face curriculum. -->
+          As a team, we piloted an emerging, modern grading and assessment system, 
+          helping over 40% of the teaching staff make the transition in their own classrooms.
+          <!--quantify like this when you can-->
          </p>
          <div class="subheading mb-3">Learning Management System Coach</div>
          <p>
-           I supported colleagues in using of new learning management systems in 
-           2013 and 2015, troubleshot problems via email and one-on-one consultation, 
-           developed curriculum for instructional technology professional development, 
-           and lead sessions at site- and district-level events.
+           I managed implementation of multiple new learning management software systems, 
+           developing training curriculum, leading learning seminars,
+           and providing additional one-to-one support for colleagues.
           </p>
       </div>
     </div>
+  </div>
+  </section> 
+
+
+  <!-- education -->
+  <hr class="m-0">
+  <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" 
+  id="education">
+  <div class="w-100">
+    <h2 class="mb-5">Education</h2>
+
+    <!-- should I include flatiron? -->
+    <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">Flatiron School - Seattle, WA</h3>
+        <div class="subheading mb-3"> International MBA</div>
+        <p>
+          Blurb Here
+        </p>
+      </div>
+    </div> -->
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">IE Buisiness School</h3>
+        <div class="subheading mb-3"> International MBA</div>
+        <p>
+          Studied in Madrid, Spain, with a cohort of students from around the world.
+          Core studies included entrepreneurship, in addition to the foundational business curriculum. 
+          As part of an agile team, I worked on a 5 week project with Nokia Spain to expand 
+          their 5G-enabled product line. During my elective learning, I specialized in technology 
+          and operations, gaining my first exposure to AI from a business perspective.
+        </p>
+      </div>
+    </div>
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">Stanford University - Stanford, CA</h3>
+        <div class="subheading mb-3"> BS Earth Systems - Energy Science and Technology</div>
+        <p>
+          As an interdisciplinary environmental science and policy major, I focused
+          on energy science and technology. I am still extremely interested in and
+          excited about energy topics, including reducing the impact of climate mitigation,
+          renewable energy, energy-efficiency. I enjoyed electives in Computer Science including
+          Programming Methodology with a focus on object-oriented design, 
+          decomposition, encapsulation, abstraction in Java and Programming Abstractinos
+          with a focus on recursion, algorithmic analysis, and data abstraction in C++.
+        </p>
+        <div class="subheading mb-3"> MA Secondary Science Education - Physics, Chemistry</div>
+        <p>
+          An equity-focused masters that included a full school year of student teaching
+          in physics at Sequoia High School as well as a summer school experience
+          in a middle school science classroom. Curriculum focused on structuring
+          learning around activities and models, teaching literacy and language across 
+          the curriculum, and managing the classroom through engaging
+           learning experiences.
+        </p>
+      </div>
+    </div>
+
+
+
   </div>
   </section> 
 
